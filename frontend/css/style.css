@@ -1,37 +1,8 @@
 :root {
-    --primary-color: #0d6efd;
-    --secondary-color: #6c757d;
+    --primary-color: #1E88E5;
+    --secondary-color: #1565C0;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    padding-top: 70px; /* Espaço para navbar fixa */
-}
-
-.navbar {
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
-}
-
-.hero {
-    padding: 100px 0;
-}
-
-.resource-card {
-    transition: transform 0.2s;
-    cursor: pointer;
-}
-
-.resource-card:hover {
-    transform: translateY(-5px);
-}
-
-.card {
-    border: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,.1);
-}
-
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
+    font-family: 'Open Sans', sans-serif;
 }
