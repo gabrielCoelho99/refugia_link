@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 :root {
     --primary-color: #1E88E5;
     --secondary-color: #1565C0;
@@ -5,4 +7,109 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+}
+
+p{
+    font-size: 50px;
+}
+
+
+
+.hidden {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 85vh;
+    margin-top: 15vh;
+    
+}
+
+section .recursos{
+    margin-top: 50vh;
+}
+
+.apresentacao-texto{
+    font-family: "Merienda", serif;
+    color: var(--primary-color);
+}
+
+.apresentacao-texto2 {
+    font-family: "Merienda", serif;
+    color: var(--primary-color);
+}
+.apresentacao-p {
+    font-family: "Merienda", serif;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    
+}
+
+.logos{
+    display:flex;
+    gap: 20px;
+    margin-left: 80px;
+}
+
+.avatar{
+    width: 300px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logos :nth-child(2){
+    transition-delay: 400ms;
+}
+
+.logos :nth-child(3){
+    transition-delay: 600ms;
+}
+
+.logos :nth-child(4){
+    transition-delay: 800ms;
+}
+
+.logos :nth-child(5){
+    transition-delay: 1000ms;
+}
+
+.sobre{
+    padding: 5%;
+}
+
+.titulo-sobre{
+    font-family: "Merienda", serif;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.texto-sobre{
+    font-family: "Merienda", serif;
+    text-align: center;
+    font-size: 2rem;
 }
