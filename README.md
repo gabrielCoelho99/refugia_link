@@ -5,7 +5,7 @@
 - Gabriel Moraes 
 
 ## Desafio Escolhido  
-**Tema**: Apoio a refugiados.  
+**Tema**: Apoio aos refugiados.  
 **Problema**: Falta de acesso centralizado a informações sobre abrigos, direitos e serviços básicos.  
 **Público-alvo**: Refugiados recém-chegados ao país, sem restrição de idade ou escolaridade.  
 
@@ -24,4 +24,4 @@
 - **Gestão**: Trello (para organizar tarefas).  
 - **Versionamento**: Git e GitHub
 - **Códigos**: VsCode
-- **Testes**: Google Chrome
+- **Testes e pesquisas**: Google Chrome
